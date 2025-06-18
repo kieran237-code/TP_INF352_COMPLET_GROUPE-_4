@@ -10,9 +10,11 @@ test.describe('Inscription utilisateur', () => {
     await expect(page.locator('h2')).toHaveText('Inscription👤');
 
     // Remplir les champs
-    const uniqueName = `user_${Date.now()}`;
-    await page.fill('#name', uniqueName);
-    await page.fill('#password', 'TestPassword123');
+    const name = 'Suzy';
+    const password = 'suzy';
+
+    await page.fill('#name', name);
+    await page.fill('#password', password);
 
     // Soumettre le formulaire
     await page.click('input[type="submit"]');
