@@ -90,7 +90,8 @@ Prérequis:
 
 * lancement de la bd virtuelle (docker mysql) :
 	ps : toujours vérifier la présence du docker-compose.yml  à la racine du projet.
-  	~: sudo docker compose up -d 
+  	~: sudo docker compose up -d
+         ~: lancer les seeders avec la commande : npx sequelize-cli db:seed:all --config sequelize.config.js --seeders-path src/seeders
   	
   3. Lancer le serveur
 --------------------
@@ -99,6 +100,7 @@ Prérequis:
 
  	~: npm run dev
  	~ l application sera disponible au http://localhost :3000
+  
 4. Tester avec Jest
 -------------------
 Prérequis:
