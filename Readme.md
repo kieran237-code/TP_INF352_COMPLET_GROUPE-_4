@@ -132,4 +132,4 @@ Dans mes codes de test j ai mis des commentaire pour expliquer en detaille le bu
 
 
 
-# MERCI MONSIEUR POUR CETTE CONNAISSANCE QUE VOUS NOUS AVEZ APRIS 🙏 
+
