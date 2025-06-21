@@ -98,7 +98,7 @@ Prérequis:
 - avoir lancer son docker mysql
 
  	~: npm run dev
- 	
+ 	~ l application sera disponible au http://localhost :3000
 4. Tester avec Jest
 -------------------
 Prérequis:
